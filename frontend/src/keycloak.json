@@ -1,0 +1,14 @@
+{
+    "realm": "flask-app",
+    "auth-server-url": "http://localhost:8080/",
+    "ssl-required": "external",
+    "resource": "flask",
+    "verify-token-audience": true,
+    "credentials": {
+      "secret": "UqL2vD8uFP8uYMFb7lLRv1PhY9iOpKEb"
+    },
+    "confidential-port": 0,
+    "policy-enforcer": {
+      "credentials": {}
+    }
+  }
